@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDQDgEYn8m06brpP275SJKlVslxkpDeZgo",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "react-notes-c3102.firebaseapp.com",
   projectId: "react-notes-c3102",
   storageBucket: "react-notes-c3102.appspot.com",
